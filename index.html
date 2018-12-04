@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="keywords" content="GMTC"/>
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=01"/>
+  <link rel="stylesheet" type="text/css" href="css/reset.css?v=01"/>
+  <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
+  <title>GTMC周年庆</title>
+  <script>
+    (function (doc, win) {
+      var docEl = doc.documentElement;
+      var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+      var recalc = function () {
+        var clientWidth = docEl.clientWidth || docEl.getBoundingClientRect().width;
+        if (!clientWidth) return;
+        docEl.style.fontSize = 100 * (clientWidth / 1080) + 'px';
+      };
+      if (!doc.addEventListener) return recalc();
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  <script>
+    var global = window;
+    var shareInfo = {
+      title: '14周年庆||G司14周年英雄帖，是英雄就来战！',
+      link: ' http://gfwp.gac-toyota.com.cn/GTMCfamily/camp/2018birthday/html/index.html',
+      imgUrl: 'http://gfwp.gac-toyota.com.cn/GTMCfamily/camp/2018birthday/html/images/share.jpg',
+      desc: '广丰发布英雄召集令，不问英雄出处，静候英雄到来，待英雄一决高下！',
+      timeLineTitle:'G司14周年英雄帖，是英雄就来战！'
+    };
+  </script>
+</head>
+<body>
+<div id="container">
+  <main id="swiper-container" class="none">
+    <section class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/p0.png" class="p0"/>
+        <div class="startBtn"></div>
+      </div>
+      <div class="swiper-slide">
+        <form class="question-cnt">
+          <p class="question-index"></p>
+          <p class="question-title"></p>
+          <ul class="question">
+            <li>
+              <div class='radio-check'>
+                <input type="radio" id="a1" name="question">
+                <span class="before"><span class="after"></span></span>
+                <label for="a1"></label>
+              </div>
+            </li>
+            <li>
+              <div class='radio-check'>
+                <input type="radio" id="a2" name="question">
+                <span class="before"><span class="after"></span></span>
+                <label for="a2"></label></div>
+            </li>
+            <li>
+              <div class='radio-check'>
+                <input type="radio" id="a3" name="question">
+                <span class="before"><span class="after"></span></span>
+                <label for="a3"></label></div>
+            </li>
+          </ul>
+        </form>
+        <div class="question-next">下一题</div>
+      </div>
+      <div class="swiper-slide">
+        <div class="user">
+          <div class="avar">
+            <img id="avatar" style="width:100%;"/>
+          </div>
+          <div id="name"></div>
+          <div id="department"></div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-main">
+            <!--<defs>
+              <filter id="Gaussian_Blur">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+              </filter>
+            </defs>-->
+            <polygon class="svg-p0 svg-p" fill="#5f5fde61;"
+                     points="244.12428280028166,164.5 224.25,61.009964247759584 104.75000000000003,61.00996424775957 45,164.5 122.22498668384387,237.7224709542332 201.00701674320473,227.73200783199826"></polygon>
+            <text class="svg-text" x="296" y="167">共有</text>
+            <text class="svg-text" x="224.25" y="49">感恩</text>
+            <text class="svg-text" x="73" y="49">综合</text>
+            <text class="svg-text" x="0" y="167">创新</text>
+            <text class="svg-text" x="73" y="290">活力</text>
+            <text class="svg-text" x="224.25" y="290">挑战</text>
+            <polyline class="svg-line" points="284,164.5 45,164.5"></polyline>
+            <polyline class="svg-line"
+                      points="104.75000000000003,61.00996424775957 224.25,267.99003575224043"></polyline>
+            <polyline class="svg-line"
+                      points="224.25,61.009964247759584 104.74999999999994,267.9900357522404"></polyline>
+            <circle class="svg-c" r="5" cx="244.12428280028166" cy="164.5"></circle>
+            <circle class="svg-c" r="5" cx="224.25" cy="61.009964247759584"></circle>
+            <circle class="svg-c" r="5" cx="104.75000000000003" cy="61.00996424775957"></circle>
+            <circle class="svg-c" r="5" cx="45" cy="164.5"></circle>
+            <circle class="svg-c" r="5" cx="122.22498668384387" cy="237.7224709542332"></circle>
+            <circle class="svg-c" r="5" cx="201.00701674320473" cy="227.73200783199826"></circle>
+            <polygon class="svg-p1 svg-p" style="stroke-width: 3px;"
+                     points="284,164.5 224.25,61.009964247759584 104.75000000000003,61.00996424775957 45,164.5 104.74999999999994,267.9900357522404 224.25,267.99003575224043"></polygon>
+            <polygon class="svg-p2 svg-p"
+                     points="260.1,164.5 212.3,81.70797139820768 116.70000000000002,81.70797139820766 68.9,164.5 116.69999999999996,247.2920286017923 212.3,247.2920286017923"></polygon>
+            <polygon class="svg-p3 svg-p"
+                     points="236.2,164.5 200.35,102.40597854865575 128.65000000000003,102.40597854865575 92.80000000000001,164.5 128.64999999999998,226.59402145134425 200.35,226.59402145134425"></polygon>
+            <polygon class="svg-p4 svg-p"
+                     points="212.29999999999998,164.5 188.4,123.10398569910384 140.60000000000002,123.10398569910384 116.70000000000002,164.5 140.59999999999997,205.89601430089616 188.4,205.89601430089616"></polygon>
+            <polygon class="svg-p5 svg-p"
+                     points="188.39999999999998,164.5 176.45,143.80199284955194 152.55,143.80199284955194 140.60000000000002,164.5 152.55,185.19800715044806 176.45,185.19800715044806"></polygon>
+          </svg>
+        </div>
+        <div class="user-next"></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic-cnt">
+          <div id="pic-cnt-generate">
+            <div class="backFace">
+            </div>
+          </div>
+         <canvas id="people"></canvas>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <canvas id="result-canvas"></canvas>
+        <img id="generateImg">
+      </div>
+    </section>
+  </main>
+</div>
+<div class="p3">
+  <div class="uploadBtn none">
+    <span>上传照片</span>
+    <input accept="image/*" type="file" class="upload">
+  </div>
+  <div class="none uploaded">
+    <div class="uploadBtn" style=" margin-left: 8%; ">
+      <span>重新上传</span>
+      <input accept="image/*" type="file" class="upload">
+    </div>
+    <div id="generateBtn" style=" margin-left: 53%; ">生成海报</div>
+  </div>
+  <img class="tip none" src="images/tip.png">
+</div>
+<div class="p4 none">
+  <div class="saveTipBtn">长按保存图片,分享到朋友圈</div>
+
+</div>
+<div id="loading">
+  <img class="loading-bar" src="./images/loading.png">
+  <p class="loading-text">0%</p>
+</div>
+<div class="none">
+  <audio id="audio" src="images/audio.mp3" loop="" autoplay></audio>
+  <img src="images/bg1.png" class="bgImg">
+  <img src="images/bg2.png" class="bgImg">
+  <img src="images/bg3.png" class="bgImg">
+  <img src="images/bg4.png" class="bgImg">
+  <img src="images/re1.png" class="resultImg">
+  <img src="images/re2.png" class="resultImg">
+  <img src="images/re3.png" class="resultImg">
+  <img src="images/re4.png" class="resultImg">
+  <canvas id="backupCanvas"></canvas>
+</div>
+
+<div class="play" id="music"></div>
+<div id="hint">
+  <div class="h-content"></div>
+</div>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/share.js?v=4"></script>
+<script src="js/zoomage.min.js?v=4"></script>
+<script src="js/exif.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/main.js?v=4"></script>
+</body>
+</html>
